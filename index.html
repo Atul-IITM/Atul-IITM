@@ -52,16 +52,33 @@
     <!-- Header & Navigation -->
     <header class="bg-white shadow-md py-4 sticky top-0 z-50">
         <div class="container mx-auto px-4 md:px-8 flex items-center justify-between">
-            <a href="#" class="text-2xl font-bold text-indigo-600">FinTech</a>
-            
+            <a href="#" class="flex items-center space-x-2">
+                <!-- A professional SVG logo for the fintech company -->
+                <svg width="40" height="40" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M25 0L0 15v20L25 50l25-15V15L25 0z" fill="url(#logoGradient)"/>
+                    <path d="M25 10L10 18.75v12.5L25 40l15-8.75V18.75L25 10z" fill="#FFFFFF" fill-opacity="0.2"/>
+                    <path d="M25 15l-10 5.75v11.5L25 38l10-5.75V20.75L25 15z" fill="#FFFFFF"/>
+                    <path d="M25 22.5L15 28.25V33L25 38l10-5.75V28.25L25 22.5z" fill="#3B82F6"/>
+                    <path d="M25 22.5L30 25.4V31.25L25 34.15l-5-2.9V25.4L25 22.5z" fill="#4F46E5" fill-opacity="0.8"/>
+                    <path d="M25 22.5l-5 2.9V28.25L25 31.15z" fill="#4F46E5"/>
+                    <path d="M25 25.4l5 2.9V31.15L25 34.15z" fill="#4F46E5"/>
+                </svg>
+            </a>
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex space-x-8">
                 <a href="#home" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Home</a>
+                <!-- New Careers link added here -->
                 <a href="https://mysalesboard.in/?dist=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Careers</a>
-                <a href="#accounts" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Accounts</a>
-                <a href="#cards" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Credit Cards</a>
-                <a href="#loans" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Loans</a>
-                <a href="#demat" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Demat Account</a>
+                <a href="https://aryoleads.co.in/AllProducts?category=Savings%20Account&uid=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Accounts</a>
+                <a href="https://aryoleads.co.in/AllProducts?category=Credit%20Card&uid=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Credit Cards</a>
+                <a href="https://aryoleads.co.in/AllProducts?category=Loan&uid=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Loans</a>
+                <a href="https://aryoleads.co.in/AllProducts?category=Demat%20Account&uid=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-300">Demat Account</a>
             </nav>
             <!-- Mobile Menu Button -->
             <div class="md:hidden">
@@ -76,10 +93,12 @@
         <nav id="mobile-menu" class="hidden md:hidden bg-white mt-2 border-t border-gray-200">
             <div class="flex flex-col space-y-2 p-4">
                 <a href="#home" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Home</a>
-                <a href="#accounts" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Accounts</a>
-                <a href="#cards" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Credit Cards</a>
-                <a href="#loans" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Loans</a>
-                <a href="#demat" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Demat Account</a>
+                <!-- New Careers link added here -->
+                <a href="https://mysalesboard.in/?dist=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Careers</a>
+                <a href="https://aryoleads.co.in/AllProducts?category=Savings%20Account&uid=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Accounts</a>
+                <a href="https://aryoleads.co.in/AllProducts?category=Credit%20Card&uid=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Credit Cards</a>
+                <a href="https://aryoleads.co.in/AllProducts?category=Loan&uid=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Loans</a>
+                <a href="https://aryoleads.co.in/AllProducts?category=Demat%20Account&uid=30e84f56e6efc638dbeee3b6b24a7bba" class="nav-link block text-gray-700 hover:text-indigo-600 font-medium">Demat Account</a>
             </div>
         </nav>
     </header>
@@ -392,21 +411,11 @@
         // Add click event listeners to all navigation links
         navLinks.forEach(link => {
             link.addEventListener('click', (e) => {
-                e.preventDefault(); // Prevent default anchor link behavior
-
                 const pageId = link.getAttribute('href');
-
-                // Check if the link is for a section that needs an external redirect
-                if (pageId === '#accounts') {
-                    window.location.href = 'https://aryoleads.co.in/AllProducts?category=Savings%20Account&uid=30e84f56e6efc638dbeee3b6b24a7bba';
-                } else if (pageId === '#cards') {
-                    window.location.href = 'https://aryoleads.co.in/AllProducts?category=Credit%20Card&uid=30e84f56e6efc638dbeee3b6b24a7bba';
-                } else if (pageId === '#loans') {
-                    window.location.href = 'https://aryoleads.co.in/AllProducts?category=Loan&uid=30e84f56e6efc638dbeee3b6b24a7bba';
-                } else if (pageId === '#demat') {
-                    window.location.href = 'https://aryoleads.co.in/AllProducts?category=Demat%20Account&uid=30e84f56e6efc638dbeee3b6b24a7bba';
-                } else {
-                    // Otherwise, show the section on the current page
+                
+                // Only prevent the default action and call showPage for internal links starting with '#'
+                if (pageId.startsWith('#')) {
+                    e.preventDefault();
                     showPage(pageId);
                 }
 
@@ -543,6 +552,4 @@
 
     </script>
 </body>
-
 </html>
-
