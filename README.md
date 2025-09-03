@@ -1,16 +1,24 @@
-## Hi there 👋
+Hi there 👋, I'm Atul
+Welcome to my GitHub profile!
 
-<!--
-**Atul-IITM/Atul-IITM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 About Me
+  🔭 I’m currently working on exciting coding projects and contributing to open source
 
-Here are some ideas to get you started:
+  🌱 I’m learning new frameworks, AI concepts, and improving my coding skills
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  👯 I love collaborating on team projects, hackathons, and open innovative ideas
+
+  🤔 I’m looking for help with scaling apps and system design
+
+  💬 Ask me about Python, web dev, or anything tech-related
+
+  📫 Reach me at: atuliitm247@gmail.com or www.linkedin.com/in/atulsawarn
+
+  😄 Pronouns: He/Him
+
+  ⚡ Fun fact: I’m an avid chess player and love exploring new coffee places!
+
+🛠️ Languages & Tools
+📊 GitHub Stats
+Thanks for stopping by! 😊
+Let’s connect and build something amazing together.
